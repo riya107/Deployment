@@ -99,6 +99,7 @@ const AppNavbar = (props) => {
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>
             <Nav className="ml-auto" navbar>
+              <Input className="w-25" type="text" />
               <NavLink
                 tag={Link}
                 to="/api/posts"
